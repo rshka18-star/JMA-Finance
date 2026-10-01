@@ -1,0 +1,90 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420B2361960D4BEFBBD95F6B /* JMAFinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE03366C3546FE9094AB31 /* JMAFinanceApp.swift */; };
+		186A13EC4DBF462BBF60A2F0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27E1369F85C4235A49FF659 /* Models.swift */; };
+		17E309F1F2F844A88D18F3DB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662B35DE26A4574AF65A30D /* RootView.swift */; };
+		7ED8C6B418E94B43951E9427 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB777BB621541868C855839 /* Theme.swift */; };
+		709CC728F0B040899EE05DF3 /* PINViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318ACAFC1AE4C718C7986EC /* PINViews.swift */; };
+		2752E16D79354F769286F7D9 /* MainViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D414EE2A5D461DB69FD6A7 /* MainViews.swift */; };
+		74427F5FB0C54728B4FE3B6F /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8D4191D705450286885F5B /* AddTransactionView.swift */; };
+		7FC6D4A6CD4842B4872CBCA6 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FAF0165B374870A13E222B /* HistoryView.swift */; };
+		55C89361BA9C4FDBA6ADD94A /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED0384C51D47EB925B50F4 /* ReportsView.swift */; };
+		D6DD098C3B8B4AED8F1666C5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9985DB3348046E68DF3E0A3 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D6AE03366C3546FE9094AB31 /* JMAFinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMAFinanceApp.swift; sourceTree = "<group>"; };
+		B27E1369F85C4235A49FF659 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1662B35DE26A4574AF65A30D /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		3DB777BB621541868C855839 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8318ACAFC1AE4C718C7986EC /* PINViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINViews.swift; sourceTree = "<group>"; };
+		45D414EE2A5D461DB69FD6A7 /* MainViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViews.swift; sourceTree = "<group>"; };
+		7C8D4191D705450286885F5B /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		95FAF0165B374870A13E222B /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B6ED0384C51D47EB925B50F4 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		D9985DB3348046E68DF3E0A3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1DAA2683CD9246149036451B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		063AF0711CC54528A34626D7 /* JMAFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMAFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5FF46F879A446D7BDDB3E63 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E02AA29725044609A9A17E62 = {isa = PBXGroup; children = (
+				3195F08265B84C80AEE4EA79 /* JMAFinance */, 
+				E2ACDB9BBC034C51B0FEF244 /* Products */,
+			); sourceTree = "<group>"; };
+		3195F08265B84C80AEE4EA79 /* JMAFinance */ = {isa = PBXGroup; children = (
+				D6AE03366C3546FE9094AB31 /* JMAFinanceApp.swift */,
+				B27E1369F85C4235A49FF659 /* Models.swift */,
+				1662B35DE26A4574AF65A30D /* RootView.swift */,
+				3DB777BB621541868C855839 /* Theme.swift */,
+				8318ACAFC1AE4C718C7986EC /* PINViews.swift */,
+				45D414EE2A5D461DB69FD6A7 /* MainViews.swift */,
+				7C8D4191D705450286885F5B /* AddTransactionView.swift */,
+				95FAF0165B374870A13E222B /* HistoryView.swift */,
+				B6ED0384C51D47EB925B50F4 /* ReportsView.swift */,
+				D9985DB3348046E68DF3E0A3 /* SettingsView.swift */,
+				1DAA2683CD9246149036451B /* Info.plist */,
+			); path = JMAFinance; sourceTree = "<group>"; };
+		E2ACDB9BBC034C51B0FEF244 /* Products */ = {isa = PBXGroup; children = (063AF0711CC54528A34626D7 /* JMAFinance.app */,); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D691E0F5F8194DF2882F2FD6 /* JMAFinance */ = {isa = PBXNativeTarget; buildConfigurationList = 6851417364FB4938882A8B99; buildPhases = (CE35206997F14DFCA54DF497, A5FF46F879A446D7BDDB3E63, B7CBEE7F386D4C4CA708752E); buildRules = (); dependencies = (); name = JMAFinance; productName = JMAFinance; productReference = 063AF0711CC54528A34626D7; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32BE2F89E540421CA42A1BAE /* Project object */ = {isa = PBXProject; attributes = {LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; TargetAttributes = {D691E0F5F8194DF2882F2FD6 = {CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = B7F1FC98937F4A27984F50B7; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = E02AA29725044609A9A17E62; productRefGroup = E2ACDB9BBC034C51B0FEF244; projectDirPath = ""; projectRoot = ""; targets = (D691E0F5F8194DF2882F2FD6); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7CBEE7F386D4C4CA708752E = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE35206997F14DFCA54DF497 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (420B2361960D4BEFBBD95F6B, 186A13EC4DBF462BBF60A2F0, 17E309F1F2F844A88D18F3DB, 7ED8C6B418E94B43951E9427, 709CC728F0B040899EE05DF3, 2752E16D79354F769286F7D9, 74427F5FB0C54728B4FE3B6F, 7FC6D4A6CD4842B4872CBCA6, 55C89361BA9C4FDBA6ADD94A, D6DD098C3B8B4AED8F1666C5); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C5EAE80BB40F441CB1F56493 = {isa = XCBuildConfiguration; buildSettings = {SWIFT_VERSION = 5.0;}; name = Debug; };
+		2DF354507EFF499E87F70F09 = {isa = XCBuildConfiguration; buildSettings = {SWIFT_VERSION = 5.0;}; name = Release; };
+		007150556F2C462A983B8AC8 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = JMAFinance/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.jma.finance; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; ENABLE_PREVIEWS = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		C0FD737ECC884C049E32CD84 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = JMAFinance/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.jma.finance; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; SWIFT_COMPILATION_MODE = wholemodule;}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7F1FC98937F4A27984F50B7 = {isa = XCConfigurationList; buildConfigurations = (C5EAE80BB40F441CB1F56493, 2DF354507EFF499E87F70F09); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		6851417364FB4938882A8B99 = {isa = XCConfigurationList; buildConfigurations = (007150556F2C462A983B8AC8, C0FD737ECC884C049E32CD84); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 32BE2F89E540421CA42A1BAE /* Project object */;
+}
